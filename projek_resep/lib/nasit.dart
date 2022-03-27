@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projek_resep/list.dart';
+import 'package:projek_resep/main.dart';
 
 class NasiT extends StatelessWidget {
   const NasiT({Key? key}) : super(key: key);
@@ -17,7 +18,7 @@ class NasiT extends StatelessWidget {
         textAlign: TextAlign.center,
         style: TextStyle(
           fontWeight: FontWeight.bold,
-          fontSize: 16,
+          fontSize: 20,
         ),
       ),
     );

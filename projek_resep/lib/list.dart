@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projek_resep/main.dart';
 import 'package:projek_resep/bakakak.dart';
 import 'package:projek_resep/batagor.dart';
 import 'package:projek_resep/empal.dart';
@@ -24,7 +25,7 @@ class List extends StatelessWidget {
           Row(
             children: [
               Container(
-                margin: EdgeInsets.fromLTRB(15, 25, 25, 0),
+                margin: EdgeInsets.fromLTRB(40, 25, 45, 0),
                 padding: EdgeInsets.all(15),
                 color: Colors.grey,
                 height: 200,
@@ -37,7 +38,7 @@ class List extends StatelessWidget {
                       height: 75,
                     ),
                     Padding(
-                      padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
+                      padding: EdgeInsets.fromLTRB(0, 10, 10, 10),
                       child: Text('Resep Karedok',
                           style: TextStyle(
                               fontSize: 15, fontWeight: FontWeight.bold)),
@@ -98,7 +99,7 @@ class List extends StatelessWidget {
           Row(
             children: [
               Container(
-                margin: EdgeInsets.fromLTRB(15, 25, 25, 0),
+                margin: EdgeInsets.fromLTRB(40, 25, 45, 0),
                 padding: EdgeInsets.all(15),
                 color: Colors.grey,
                 height: 200,
@@ -172,7 +173,7 @@ class List extends StatelessWidget {
           Row(
             children: [
               Container(
-                margin: EdgeInsets.fromLTRB(15, 25, 25, 0),
+                margin: EdgeInsets.fromLTRB(40, 25, 45, 0),
                 padding: EdgeInsets.all(15),
                 color: Colors.grey,
                 height: 200,
@@ -246,7 +247,7 @@ class List extends StatelessWidget {
           Row(
             children: [
               Container(
-                margin: EdgeInsets.fromLTRB(15, 25, 25, 0),
+                margin: EdgeInsets.fromLTRB(40, 25, 45, 0),
                 padding: EdgeInsets.all(15),
                 color: Colors.grey,
                 height: 200,
@@ -320,7 +321,7 @@ class List extends StatelessWidget {
           Row(
             children: [
               Container(
-                margin: EdgeInsets.fromLTRB(15, 25, 25, 0),
+                margin: EdgeInsets.fromLTRB(40, 25, 45, 0),
                 padding: EdgeInsets.all(15),
                 color: Colors.grey,
                 height: 200,
